@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard Control Panel</title>
+    <link rel="stylesheet" href="control-panel-style.css">
+</head>
+<body>
+    <div class="control-container">
+        <h1>Scoreboard Control Panel</h1>
+        <h2 id="match-title" style="text-align: center; color: #f1c40f;">Loading Match...</h2>
+
+        <div class="input-group">
+            <h3>Team Details</h3>
+            <label for="team1-name-input">Team 1 Name:</label>
+            <input type="text" id="team1-name-input" placeholder="Team 1 Name" readonly>
+            
+            <label for="team2-name-input">Team 2 Name:</label>
+            <input type="text" id="team2-name-input" placeholder="Team 2 Name" readonly>
+            
+            <br><br>
+            
+            <label for="team1-wickets-input">Wickets:</label>
+            <input type="number" id="team1-wickets-input" placeholder="0">
+            
+            <label for="overs-input">Overs:</label>
+            <input type="text" id="overs-input" placeholder="0.0">
+            
+            <label for="current-batting-team-input">Batting Team:</label>
+            <input type="text" id="current-batting-team-input" placeholder="Batting Team">
+
+            <div class="extras-control">
+                <label>Total Runs (with Extras):</label>
+                <div class="extras-widget">
+                    <button id="increase-extras-btn" class="extras-btn">+</button>
+                    <span id="total-runs-display">0</span>
+                    <button id="decrease-extras-btn" class="extras-btn">-</button>
+                </div>
+                <small>Click '+' or '-' to adjust extra runs</small>
+            </div>
+            </div>
+
+        <div class="input-group">
+            <h3>Player & Bowler Info</h3>
+            <label for="striker-name-input">Striker Name:</label>
+            <input type="text" id="striker-name-input" placeholder="Batsman 1">
+            
+            <label for="striker-runs-input">Striker Runs:</label>
+            <input type="number" id="striker-runs-input" placeholder="0">
+            
+            <label for="striker-bolls-input">Striker Balls:</label>
+            <input type="number" id="striker-bolls-input" placeholder="0" readonly> <br><br>
+
+            <label for="non-striker-name-input">Non-Striker Name:</label>
+            <input type="text" id="non-striker-name-input" placeholder="Batsman 2">
+
+            <label for="non-striker-runs-input">Non-Striker Runs:</label>
+            <input type="number" id="non-striker-runs-input" placeholder="0">
+
+            <label for="non-striker-bolls-input">Non-Striker Balls:</label>
+            <input type="number" id="non-striker-bolls-input" placeholder="0" readonly> <br><br>
+            
+            <label for="bowler-name-input">Bowler Name:</label>
+            <input type="text" id="bowler-name-input" placeholder="Bowler">
+        </div>
+        
+        <button onclick="updateScoreboard()">Update All Fields</button>
+    </div>
+    <script src="control.js"></script>
+</body>
+</html>

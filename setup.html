@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Setup</title>
+    <link rel="stylesheet" href="control-panel-style.css"> </head>
+<body>
+    <div class="control-container">
+        <h1>Tournament & Match Setup</h1>
+        <form id="setup-form">
+            <div class="input-group">
+                <h3>Tournament Details</h3>
+                <label for="organizer-name">Organizer Name:</label>
+                <input type="text" id="organizer-name" value="My Cricket League" required>
+                
+                <label for="match-number">Select Match:</label>
+                <select id="match-number" required>
+                    <option value="1">Match 1</option>
+                    <option value="2">Match 2</option>
+                    <option value="3">Match 3</option>
+                    <option value="4">Match 4</option>
+                    <option value="5">Match 5</option>
+                    <option value="6">Match 6</option>
+                </select>
+            </div>
+            
+            <div class="input-group">
+                <h3>Team Details</h3>
+                <label for="team-a">Team A Name:</label>
+                <input type="text" id="team-a" placeholder="Enter Team A Name" required>
+                <label for="team-b">Team B Name:</label>
+                <input type="text" id="team-b" placeholder="Enter Team B Name" required>
+            </div>
+
+            <div class="input-group">
+                <h3>Toss</h3>
+                <label for="toss-winner">Toss Winner:</label>
+                <select id="toss-winner" required>
+                    </select>
+                
+                <label for="toss-decision">Decision:</label>
+                <select id="toss-decision" required>
+                    <option value="Bat">Bat</option>
+                    <option value="Field">Field</option>
+                </select>
+            </div>
+            
+            <button type="submit">Start & Go to Control Panel</button>
+        </form>
+    </div>
+    <script src="setup.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "tournament_organizer": "My Cricket League",
+  "active_match": "match1",
+  "matches": {
+    "match1": {
+      "team1_name": "jay abe ",
+      "team2_name": "radhe radhe",
+      "toss": "jay abe  won the toss and chose to Bat",
+      "team1_runs": "43",
+      "team1_extra": "0",
+      "team1_wickets": "2",
+      "overs": "2.1",
+      "current_batting_team": "jay abe ",
+      "striker_name": "vilas",
+      "striker_runs": "23",
+      "striker_bolls": "0",
+      "non_striker_name": "okey  sharma",
+      "non_striker_runs": "56",
+      "non_striker_bolls": "0",
+      "bowler_name": "bsdbar"
+    },
+    "match2": {
+      "team1_name": "vilas",
+      "team2_name": "raju",
+      "toss": "vilas won the toss and chose to Field",
+      "team1_runs": "16",
+      "team1_extra": "2",
+      "team1_wickets": "1",
+      "overs": "1.4",
+      "current_batting_team": "VLS vs RAJ",
+      "striker_name": "niram",
+      "striker_runs": "10",
+      "striker_bolls": "3",
+      "non_striker_name": "Manas",
+      "non_striker_runs": "4",
+      "non_striker_bolls": "1",
+      "bowler_name": "rahul"
+    },
+    "match3": {
+      "team1_name": "vilas ",
+      "team2_name": "raju",
+      "toss": "vilas  won the toss and chose to Bat",
+      "team1_runs": "11",
+      "team1_wickets": "2",
+      "team1_extra": "2",
+      "overs": "3.3",
+      "current_batting_team": "vilas ",
+      "striker_name": "vilas zugare",
+      "striker_runs": "03",
+      "striker_bolls": "2",
+      "non_striker_name": "vishaad",
+      "non_striker_runs": "6",
+      "non_striker_bolls": "3",
+      "bowler_name": "shantanu"
+    }
+  }
+}
