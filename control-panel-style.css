@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Basic styling for the control panel */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -155,4 +156,163 @@ button:hover {
     .control-container {
         padding: 80px;
     }
+=======
+/* Basic styling for the control panel */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #34495e; /* Dark background */
+    color: #ecf0f1;
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    /* min-height: 100vh; */
+    padding: 20px;
+}
+
+/* Container for the entire control panel */
+.control-container {
+    background: #2c3e50; /* Slightly lighter dark background */
+    /* padding: 30px;
+    border-radius: 10px; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    /* width: 100%;
+    max-width: 600px; */
+}
+
+h1 {
+    /* text-align: center; */
+    color: #f1c40f;
+    /* margin-bottom: 20px; */
+}
+
+/* Styling for each group of inputs */
+.input-group {
+    background: #34495e;
+    /* padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; */
+}
+
+.input-group h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #f1c40f;
+     /* padding-bottom: 10px;
+    margin-bottom: 15px;  */
+}
+
+/* Style for labels and inputs */
+label {
+      /* display: block; 
+    margin-bottom: 5px; */
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 7%;
+    padding: 8px; 
+     margin-bottom: 15px;  
+    border: 1px solid #7f8c8d;
+    border-radius: 5px;
+    background-color: #496179;
+    color: #ecf0f1;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+}
+
+/* Remove default number input spinner */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Styling for the update button */
+button {
+    /* width: 100%;
+    padding: 15px; */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c3e50;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f39c12;
+    text-align: center;
+ 
+
+}
+
+/* Add these new styles to the end of your CSS file */
+
+/* --- Styles for Extras Control --- */
+.extras-control {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.extras-control label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.extras-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #496179;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 250px;
+    margin: 0 auto; /* Center the widget */
+}
+
+#total-runs-display {
+    font-size: 2em;
+    font-weight: bold;
+    color: #f1c40f;
+    padding: 0 25px;
+    min-width: 50px; /* Ensures space for the number */
+    text-align: center;
+}
+
+.extras-btn {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ecf0f1;
+    background-color: #56708b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    line-height: 45px; /* Vertically center the text */
+    padding: 0;
+    transition: background-color 0.2s;
+}
+
+.extras-btn:hover {
+    background-color: #7f8c8d;
+}
+
+.extras-control small {
+    display: block;
+    margin-top: 5px;
+    color: #95a5a6;
+    font-size: 0.8em;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .control-container {
+        padding: 80px;
+    }
+>>>>>>> eb627643d2a644adbd4a0cd77d5b4bc2698e513d
 }
