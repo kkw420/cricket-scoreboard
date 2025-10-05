@@ -1,0 +1,377 @@
+/* Basic reset and centering for the page */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* Changed background color to transparent for OBS overlay */
+    background-color: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Hero Image - This is the main container */
+/* Hero Image - This is the main container */
+.hero-image {
+    box-sizing: border-box;
+    position: relative;
+    
+    /* CORRECTED: Increased the width to fit all elements */
+    width: 1310px; 
+    height: 800px;
+
+    background-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+
+    /* The border you added back in */
+    border: 1.5px solid #134822;
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 251.79px;
+    height: 57.95px;
+    left: -28.98px;
+    top: 666.44px;
+    background: linear-gradient(90deg, #50A609 0%, #EC9B46 100%);
+    border: 1.49875px solid #27651E;
+    box-shadow: 0px 4px 4px -1px rgba(12, 12, 13, 0.1), 0px 4px 4px -1px rgba(12, 12, 13, 0.05);
+    border-radius: 29.975px;
+}
+
+/* Rectangle 2 */
+.rectangle-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 263.78px;
+    height: 58.95px;
+    left: 1061.11px;
+    top: 665.44px;
+    background: linear-gradient(90deg, #355176 0%, #3EEC87 100%);
+    border: 1px solid #2066A8;
+    box-shadow: 0px 4px 4px -1px rgba(12, 12, 13, 0.1), 0px 4px 4px -1px rgba(12, 12, 13, 0.05);
+    border-radius: 29.975px;
+}
+
+/* Rectangle 4 */
+.rectangle-4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 225.81px;
+    height: 29.97px;
+    left: 226.81px;
+    top: 696.42px;
+    background: linear-gradient(90deg, #7BD4CB 0%, #44746F 61.54%, #1B5952 100%);
+    border: 1.5px solid #8A9189;
+    border-radius: 29.975px;
+}
+
+/* Rectangle 5 */
+.rectangle-5 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 225.81px;
+    height: 29.97px;
+    left: 226.81px;
+    top: 662.45px;
+    background: linear-gradient(90deg, #7BD4CB 0%, #44746F 61.54%, #1B5952 100%);
+    border: 1.5px solid #8A9189;
+    border-radius: 29.975px;
+}
+
+/* Rectangle 6 */
+.rectangle-6 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 225.81px;
+    height: 29.97px;
+    left: 830.31px;
+    top: 696.29px;
+    background: linear-gradient(90deg, #7BD4CB 0%, #44746F 61.54%, #1B5952 100%);
+    border: 1px solid #8A9189;
+    border-radius: 29.975px;
+}
+
+/* Rectangle 7 */
+.rectangle-7 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 225.81px;
+    height: 29.97px;
+    left: 830.31px;
+    top: 663.31px;
+    background: linear-gradient(90deg, #7BD4CB 0%, #44746F 61.54%, #1B5952 100%);
+    border: 1px solid #8A9189;
+    border-radius: 29.975px;
+}
+
+
+
+/* Rectangle 9 */
+.rectangle-9 {
+    position: absolute;
+    width: 215.63px;
+    height: 33.1px;
+    left: 597.94px;
+    top: 657.93px;
+    background: #2ACEEB;
+    border-radius: 33.8427px;
+}
+
+/* Rectangle 10 */
+.rectangle-10 {
+    position: absolute;
+    width: 179.53px;
+    height: 33.1px;
+    left: 469.37px;
+    top: 657.93px;
+    background: linear-gradient(90deg, #2A84EB 0%, #3C1885 100%);
+    border-radius: 33.8427px;
+}
+
+/* Rectangle 8 */
+.rectangle-8 {
+    position: absolute;
+    width: 33.1px;
+    height: 33.1px;
+    left: 592px;
+    top: 657.93px;
+    background: #ED0408;
+    border-radius: 50%; /* This makes the div a circle */
+    z-index: 10; /* Ensures the red circle is on top of other elements */
+}
+
+/* Rectangle 11 */
+.rectangle-11 {
+    position: absolute;
+    width: 369.08px;
+    height: 56.16px;
+    left: 456.34px;
+    top: 669.96px;
+    background: linear-gradient(90deg, #667DC0 0%, #140579 100%);
+    border-radius: 28.0822px;
+}
+
+/* Add this new class to the end of your style.css file */
+
+/* Style for the text inside the rectangles */
+.text-style {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* Adjust size as you see fit */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* Adds a slight shadow to make text pop */
+
+    /* These properties center the text perfectly */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   /* height: 100%; */
+    
+    /* Add some padding so text doesn't touch the edges */
+    padding: 0 35px; 
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+.text-style1 {
+  
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* Adjust size as you see fit */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* Adds a slight shadow to make text pop */
+
+    /* These properties center the text perfectly */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   /* height: 100%; */
+    
+    /* Add some padding so text doesn't touch the edges */
+    padding: 0 35px; 
+    padding-top: 19px;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+#current-batting-team {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#team1-runs {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  padding-left: 60px;
+}
+#team1-wickets {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  padding-right: 10px;
+}
+
+.team1-name {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 35px; /* Adjust size as you see fit */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* Adds a slight shadow to make text pop */
+
+    /* These properties center the text perfectly */
+    /*display: flex; */
+    justify-content: center;
+    align-items: center;
+   /* height: 100%; */
+    
+    /* Add some padding so text doesn't touch the edges */
+    padding: 0 35px; 
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+.team2-name  {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 35px; /* Adjust size as you see fit */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* Adds a slight shadow to make text pop */
+
+    /* These properties center the text perfectly */
+      display: flex; 
+    justify-content: right;
+    align-items: right; 
+ 
+    
+    /* Add some padding so text doesn't touch the edges */
+    padding: 0 80px; 
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+.striker-name {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* Adjust size as you see fit */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* Adds a slight shadow to make text pop */
+
+    /* These properties center the text perfectly */
+    /*display: flex; */
+    justify-content: right;
+    align-items: right;
+   /* height: 100%; */
+    
+    /* Add some padding so text doesn't touch the edges */
+    padding-left: 35px;
+    padding: 5 20px; 
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+
+#striker-runs {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  padding-left: 10px;
+}
+
+#striker-bolls{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  
+}
+
+
+.non-striker-name {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* Adjust size as you see fit */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* Adds a slight shadow to make text pop */
+
+    /* These properties center the text perfectly */
+    /*display: flex; */
+    justify-content: right;
+    align-items: right;
+   /* height: 100%; */
+    
+    /* Add some padding so text doesn't touch the edges */
+    padding-left: 35px;
+    padding: 7 40px; 
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+
+#non-striker-runs{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  padding-left: 10px;
+}
+
+#non-striker-bolls{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  /* Add any other styles you need */
+
+  
+}
+
+
+
+
+@keyframes flip-animation {
+  0% {
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+  40% {
+    transform: perspective(400px) rotateX(-40deg);
+  }
+  70% {
+    transform: perspective(400px) rotateX(10deg);
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.updated {
+  /* This is needed to give the animation a 3D context */
+  transform-style: preserve-3d;
+  /* The animation itself */
+  animation: flip-animation 4.3s ease-in-out;
+}
